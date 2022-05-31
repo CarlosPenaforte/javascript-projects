@@ -1,32 +1,14 @@
-let count=0;
-var currentNumber = document.getElementById("currentNumber");
+var todoText = document.getElementById("todoName").nodeValue;
+var todoList = document.getElementById("list-container");
 
-function increment() {
-    if(count<1000) {
-        count++;
-        currentNumber.innerHTML = count;
-    }
-    if(count >= 0) {
-        document.getElementById("currentNumber").style.color = "green";
-    }
+function addTodo() {
+    const TEXT = document.createTextNode(todoText);
+    todoList.appendChild(TEXT);
 }
-
-function decrement() {
-    if(count>-1000) {
-        count--;
-        currentNumber.innerHTML = count;
-    }
-    if(count < 0) {
-        document.getElementById("currentNumber").style.color = "red";
-    }
-}
-
 
 function load() {
-    var addWrapper = document.getElementById("add");
-    addWrapper.addEventListener("click",increment,false);
-    var subWrapper = document.getElementById("sub");
-    subWrapper.addEventListener("click",decrement,false);
+    var button = document.getElementById("button");
+    button.addEventListener("submit",addTodo,false);
 }
 
 document.addEventListener("DOMContentLoaded",load,false);
