@@ -25,7 +25,10 @@ h1 {
 }
 
 #button {
+    border-color:rgb(20,20,20);
+    color: rgb(20,20,20);
     border-radius: 3px;
+    background-color: rgb(150,255,200);
 }
 
 #list-container {
@@ -63,7 +66,7 @@ h1 {
 
 #checkbox:checked + #label {
     text-decoration: line-through;
-    color: rgb(100,200,100);
+    color: rgb(50,200,50);
     font-style: italic;
     font-weight: lighter;
 }
