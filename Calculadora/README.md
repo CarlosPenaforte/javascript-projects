@@ -4,8 +4,8 @@ O programa funciona através de interação com o usuário, utilizando de prompt
 ## Recursos utilizados
  - prompt;
  - alert;
- - function;
- - switch;
+ - functions;
+ - switch/case;
  - if/else;
 ### Créditos
 Código criado por Carlos Daniel Penaforte de Souza.
