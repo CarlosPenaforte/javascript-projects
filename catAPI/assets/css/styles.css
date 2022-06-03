@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    margin:0;
+    background-color: rgb(240,240,240);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    font-size:40px;
+    padding:0 10px;
+    color:rgb(250,80,80);
+    border:2px solid rgb(250,80,80);
+    border-radius:10px;
+}
+#cat{
+    height:50vh;
+    border-radius:50px;
+}
+#change-cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7rem;
+    height:2rem;
+    color:rgb(240,240,240);
+    font-weight: 600;
+    background-color: rgb(250,80,80);
+    border-radius:10px;
+    border-color:rgb(240,240,240);
+}
